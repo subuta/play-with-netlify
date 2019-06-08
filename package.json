@@ -1,0 +1,26 @@
+{
+  "name": "play-with-netlify",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "keywords": [],
+  "author": "subuta <shunta.3110@gmail.com>",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "start": "cd dist && serve",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "serve": "^11.0.0",
+    "tailwindcss": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "autoprefixer": "^9.5.1",
+    "parcel-bundler": "^1.12.3",
+    "postcss-import": "^12.0.1",
+    "precss": "^4.0.0"
+  }
+}
